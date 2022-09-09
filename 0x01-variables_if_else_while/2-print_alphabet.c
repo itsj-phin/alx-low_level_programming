@@ -1,32 +1,18 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 
 /**
-* main - generates random number n
-* Determines whether n is 0, n > 5 or n < 6
-* Return: 0
+* main - prints the alphabet in lowercase
+* Return: 0 after successful execution
 */
 
 int main(void)
 {
-int n;
+char alphabet;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-
-printf("Last digit of %d is %d and is", n, n % 10);
-if (n % 10 > 5)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-printf("and is greater than 5\n");
+putchar(alphabet);
 }
-else if (n % 10 == 0)
-{
-printf("and is 0\n");
-}
-else if (n % 10 < 6 && n % 10 != 0)
-{
-printf("and is less than 6 and not 0\n");
-}
+putchar('\n');
 return (0);
-}
+}  

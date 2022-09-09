@@ -19,4 +19,4 @@ putchar(alphABET);
 }
 putchar('\n');
 return (0);
-}  
+}   

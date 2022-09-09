@@ -1,10 +1,10 @@
-##alx-low_level_programming
+## alx-low_level_programming
 
-#Description
+# Description
 
 This repository contains C low level programming
 
-#Environment
+# Environment
 
 **Language: C** <br/>
 **OS: Ubuntu 20.04 LTS** <br/>

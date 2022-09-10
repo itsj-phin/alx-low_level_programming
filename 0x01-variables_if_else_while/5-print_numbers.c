@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints all single digit numbers of base 10 starting from 0
-* Return: 0 after successful execution
+ * * main - print all single digit numbers of base 10 starting from 0
+ * * Return: 0 after successful execution
 */
 
 int main(void)
@@ -15,4 +15,4 @@ printf("%d", i);
 }
 printf("\n");
 return (0);
-}  
+}

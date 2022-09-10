@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdlib>
 
 /**
- * main - generates random number n
- * Determines whether n is 0, n > 5 or n < 6
- * Return: 0
+ * * main - generates random number n
+ * * Determines whether n is 0, n > 5 or n > 6
+ * * Return: 0
 */
 
 int main(void)

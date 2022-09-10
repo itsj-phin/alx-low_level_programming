@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase excepr q and e
-* Return: 0 after successful execution
-*/ 
+ * * main - prints the alphabet in lowercase except q and e
+ * * Return: 0 after successful execution
+*/
 
 int main(void)
 {
@@ -18,4 +18,4 @@ putchar(alphy);
 }
 putchar('\n');
 return (0);
-}   
+}

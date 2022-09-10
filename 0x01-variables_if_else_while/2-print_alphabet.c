@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase
-* Return: 0 after successful execution
+ * * main - prints the alphabet in lowercase
+ * * Return: 0 after successful execution
 */
 
 int main(void)
@@ -15,4 +15,4 @@ putchar(alphabet);
 }
 putchar('\n');
 return (0);
-}  
+}

@@ -2,7 +2,7 @@
 
 /**
  * * main - prints all possible different combinations of two digits
- * * Return: Always 0 (Success)
+ * * Return: ALways 0 (Success)
 */
 
 int main(void)
@@ -19,7 +19,7 @@ putchar(n);
 putchar(m);
 if (n != 56 || m != 57)
 {
-putchar('.');
+putchar(',');
 putchar(' ');
 }
 }

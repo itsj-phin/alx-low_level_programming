@@ -4,8 +4,7 @@
 
 /**
  * * main - generates random number n
- * * Determines whether n is 0, n > 5 or n > 6
- * * Return: 0
+ * * Determines whether n is 0, n > 5 or n > 6 * * Return: 0
 */
 
 int main(void)
